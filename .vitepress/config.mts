@@ -7,7 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Blog", link: "/" },
+      { text: "Blog", link: "/blog" },
       {
         text: "For Users",
         link: "/docs/ForUsers/faq",
@@ -30,13 +30,22 @@ export default defineConfig({
     },
 
     sidebar: {
+      "blog/": [
+        {
+          base: "/blog/",
+        },
+      ],
       "/docs/ForUsers/": [
         {
+          base: "/docs/ForUsers/",
           items: [
-            { text: "Frequently Asked Questions", link: "/docs/ForUsers/faq" },
+            {
+              text: "Frequently Asked Questions",
+              link: "faq",
+            },
             {
               text: "Community Guidelines",
-              link: "/docs/ForUsers/CommunityGuidelines",
+              link: "CommunityGuidelines",
             },
           ],
         },
@@ -44,14 +53,15 @@ export default defineConfig({
       "/docs/JoinTheTeam/": [
         {
           text: "Join The Team",
+          base: "/docs/JoinTheTeam/",
           items: [
             {
               text: "Maintainers Requirements",
-              link: "/docs/JoinTheTeam/MaintainersRequirements",
+              link: "MaintainersRequirements",
             },
             {
               text: "Device Requirements",
-              link: "/docs/JoinTheTeam/DeviceRequirements",
+              link: "DeviceRequirements",
             },
           ],
         },
@@ -67,18 +77,19 @@ export default defineConfig({
       ],
       "/docs/resources": [
         {
+          base: "/docs/resources/",
           items: [
             {
               text: "Important Links",
-              link: "/docs/resources/ImportantLinks",
+              link: "ImportantLinks",
             },
             {
               text: "Banners Archive",
-              link: "/docs/resources/BannerArchives",
+              link: "BannerArchives",
             },
             {
               text: "Wallpapers",
-              link: "/docs/resources/wallpapers",
+              link: "wallpapers",
             },
           ],
         },
