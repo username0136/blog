@@ -16,6 +16,6 @@
 
 8. You **MUST NOT** overclock or do anything that can damage the device. This can cause instability and can harm the device.
 
-:::note
+::: info
 Exceptions for some of the requirements maybe made for older phones and during beta stage.
 :::
