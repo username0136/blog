@@ -1,7 +1,8 @@
 ---
-next:
-  text: "2024 August Update"
-  link: "/blog/2024-08-20-August-Update"
+title: January 2025 Update
+authors: [whyredfire, hridaya]
+image: https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/2025-01-15/banner.png
+tags: [PixelOS, AOSP, A15, January]
 ---
 
 # January 2025 Update
@@ -10,23 +11,23 @@ We're happy to anonunce PixelOS 15 stable release.
 
 As per usual, the latest security patch (`android-15.0.0_r10`) has been merged into our sources. The redesigned updater will be shipped with this release as planned.
 
-![Banner](https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/2025-01-15/banner.png)
+<Banner src="https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/2025-01-15/banner.png" />
 
 ## Changelogs
 
-- Ambient display
-- Long press power button for torch
-- Long press volume buttons for music playbacks
-- Extended battery information
-- New refresh rate selector page
-- One shot brightness
-- Status bar icon manager
-- LineageOS LiveDisplay
-- Tap to sleep on statusbar or lockscreen
-- Option to force apps to ignore notch space
-- Scrambled PIN layout
-- Allow accessing power menu on secured lockscreen
-- Touch to unlock anytime
+    - Ambient display
+    - Long press power button for torch
+    - Long press volume buttons for music playbacks
+    - Extended battery information
+    - New refresh rate selector page
+    - One shot brightness
+    - Status bar icon manager
+    - LineageOS LiveDisplay
+    - Tap to sleep on statusbar or lockscreen
+    - Option to force apps to ignore notch space
+    - Scrambled PIN layout
+    - Allow accessing power menu on secured lockscreen
+    - Touch to unlock anytime
 
 ### Applications for PixelOS 15 are now open
 

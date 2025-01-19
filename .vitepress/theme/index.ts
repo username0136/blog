@@ -4,6 +4,12 @@ import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import "./style.css";
 
+import Banner from "../components/Banner.vue";
+import DeviceScreenshot from "../components/DeviceScreenshot.vue";
+
+import VPArticle from "../components/VPArticle.vue";
+import VPArticles from "../components/VPArticles.vue";
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -13,5 +19,9 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
+    app.component("Banner", Banner);
+    app.component("DeviceScreenshot", DeviceScreenshot);
+    app.component("VPArticle", VPArticle);
+    app.component("VPArticles", VPArticles);
   },
 } satisfies Theme;

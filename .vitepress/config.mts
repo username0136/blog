@@ -1,16 +1,21 @@
 import { defineConfig } from "vitepress";
+
 import { getSidebarBlog } from "./blogUtil";
 
 const blogItems = await getSidebarBlog();
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "PixelOS Docs",
-  description: "TODO",
+  cleanUrls: true,
+  description: "Documentation for PixelOS",
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Blog", link: `/blog/${blogItems[0]}` },
+      {
+        text: "Blog",
+        link: `/blog/${blogItems[0].name}`,
+        activeMatch: "^/blog/",
+      },
       {
         text: "For Users",
         link: "/docs/ForUsers/faq",
@@ -33,15 +38,15 @@ export default defineConfig({
     },
 
     sidebar: {
-      "blog/": [
-        {
-          base: "/blog/",
-          items: blogItems.map((item) => ({
-            text: item,
-            link: item,
-          })),
-        },
-      ],
+      "/blog/": blogItems.map((item) => ({
+        text: item.year,
+        items: [
+          {
+            text: item.title,
+            link: `/blog/${item.name}`,
+          },
+        ],
+      })),
       "/docs/ForUsers/": [
         {
           base: "/docs/ForUsers/",
@@ -54,6 +59,39 @@ export default defineConfig({
               text: "Community Guidelines",
               link: "CommunityGuidelines",
             },
+          ],
+        },
+        {
+          text: "Guides",
+          base: "/docs/guides/",
+          items: [
+            { text: "Reporting Bugs", link: "BugReport" },
+            { text: "Taking Logs", link: "HowToLog" },
+            { text: "Rooting and SafetyNet", link: "HowToRoot" },
+          ],
+        },
+      ],
+      "/docs/guides/": [
+        {
+          base: "/docs/ForUsers/",
+          items: [
+            {
+              text: "Frequently Asked Questions",
+              link: "faq",
+            },
+            {
+              text: "Community Guidelines",
+              link: "CommunityGuidelines",
+            },
+          ],
+        },
+        {
+          text: "Guides",
+          base: "/docs/guides/",
+          items: [
+            { text: "Reporting Bugs", link: "BugReport" },
+            { text: "Taking Logs", link: "HowToLog" },
+            { text: "Rooting and SafetyNet", link: "HowToRoot" },
           ],
         },
       ],
@@ -74,29 +112,30 @@ export default defineConfig({
         },
         {
           text: "Building PixelOS",
+          base: "/docs/JoinTheTeam/",
           items: [
             {
               text: "Build Guide",
-              link: "/docs/JoinTheTeam/BuildingPixelOS",
+              link: "/BuildingPixelOS",
             },
           ],
         },
       ],
-      "/docs/resources": [
+      "/docs/resources/": [
         {
-          base: "/docs/resources/",
+          text: "Resources",
           items: [
             {
               text: "Important Links",
-              link: "ImportantLinks",
+              link: "/docs/resources/ImportantLinks",
             },
             {
               text: "Banners Archive",
-              link: "BannerArchives",
+              link: "/docs/resources/BannerArchives",
             },
             {
               text: "Wallpapers",
-              link: "wallpapers",
+              link: "/docs/resources/wallpapers",
             },
           ],
         },
