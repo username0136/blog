@@ -1,3 +1,9 @@
+---
+next:
+  text: "2024 August Update"
+  link: "/blog/2024-08-20-August-Update"
+---
+
 # January 2025 Update
 
 We're happy to anonunce PixelOS 15 stable release.

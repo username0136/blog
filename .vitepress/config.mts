@@ -1,4 +1,7 @@
 import { defineConfig } from "vitepress";
+import { getSidebarBlog } from "./blogUtil";
+
+const blogItems = await getSidebarBlog();
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,7 +10,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Blog", link: "/blog" },
+      { text: "Blog", link: `/blog/${blogItems[0]}` },
       {
         text: "For Users",
         link: "/docs/ForUsers/faq",
@@ -33,6 +36,10 @@ export default defineConfig({
       "blog/": [
         {
           base: "/blog/",
+          items: blogItems.map((item) => ({
+            text: item,
+            link: item,
+          })),
         },
       ],
       "/docs/ForUsers/": [
