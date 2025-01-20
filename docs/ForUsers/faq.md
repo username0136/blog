@@ -32,7 +32,7 @@ Repeatedly asking for updates ("ETAs") through the use of euphemisms in the comm
 
 ## How to report bugs?
 
-[Refer to this guide](guides/reportbugs) to learn how to take proper logs. Then send these logs over to your maintainer through our community.
+[Refer to this guide](/docs/guides/BugReport) to learn how to take proper logs. Then send these logs over to your maintainer through our community.
 
 ## Should I clean flash to upgrade to a newer version?
 
