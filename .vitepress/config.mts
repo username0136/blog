@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 import { getSidebarBlog } from "./blogUtil";
+import { text } from "node:stream/consumers";
 
 const blogItems = await getSidebarBlog();
 
@@ -32,6 +33,10 @@ export default defineConfig({
         text: "Resources",
         link: "/docs/resources/ImportantLinks",
         activeMatch: "^/docs/resources/",
+      },
+      {
+        text: "Donate",
+        link: "/docs/donate",
       },
     ],
 
