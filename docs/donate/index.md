@@ -13,9 +13,9 @@ Donations to the project can be made via:
 
 ## UPI (Preferable for Indian Users)
 
-|    ![PixelOS UPI](https://github.com/PixelOS-Devices/stuff/blob/main/website/UPI/pixelos-AT-upi.png?raw=true){ width=150 }     |  [**pixelos@upi**](upi://pay?cu=INR&pa=pixelos@upi&pn=PixelOS&am=)   |
-| :----------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------: |
-| ![PixelOS UPI](https://github.com/PixelOS-Devices/stuff/blob/main/website/UPI/whyredfire-2-AT-oksbi.png?raw=true){ width=150 } | [**whyredfire-2@oksbi**](upi://pay?pa=whyredfire-2@oksbi&pn=PixelOS) |
+|    ![PixelOS UPI](https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/assets/donate/pixelos-at-upi.png){ width=150 }     |  [**pixelos@upi**](upi://pay?cu=INR&pa=pixelos@upi&pn=PixelOS&am=)   |
+| :-------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------: |
+| ![PixelOS UPI](https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/assets/donate/whyredfire-2-at-oksbi.png){ width=150 } | [**whyredfire-2@oksbi**](upi://pay?pa=whyredfire-2@oksbi&pn=PixelOS) |
 
 ## GitHub Sponsors ([Click Me](https://github.com/sponsors/PixelOS-AOSP/))
 
@@ -23,5 +23,5 @@ For donors out of India, this is the most preferred way to support PixelOS
 
 ## PayPal
 
-| ![PayPal Logo](https://pngimg.com/uploads/paypal/paypal_PNG22.png){ width=75 } | [Click Me](https://paypal.me/whyredfire) |
-| :----------------------------------------------------------------------------: | :--------------------------------------: |
+| ![PayPal Logo](https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/assets/donate/paypal.png){ width=75 } | [Click Me](https://paypal.me/whyredfire) |
+| :---------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------: |

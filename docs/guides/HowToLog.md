@@ -71,7 +71,7 @@ Any instances of bullying maintainers will not be tolerated and action will be t
 
 6. Take your log:
 
-   Logcat: `adb logcat -d > test.log` or `./adb logcat -d > test.log`
+   logcat: `adb logcat -d > test.log` or `./adb logcat -d > test.log`  
    dmesg: `adb shell dmesg > test.log` or `./adb shell dmesg > test.log`
 
 7. Give that log to the appropriate party with a proper report, following the etiquette below.

@@ -41,9 +41,9 @@ remaining issues. In the meantime, here are a few screenshots to give you a
 glimpse of what's coming.
 
 <div style="display: flex; flex-direction:row; gap:12px; overflow-x:auto;">
-    <DeviceScreenshot src="https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/images/updater/updater_light.png" />
-    <DeviceScreenshot src="https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/images/updater/updater_dark.png" />
-    <DeviceScreenshot src="https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/images/updater/updater_black.png" />
+    <DeviceScreenshot src="https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/2024-12-03/updater_light.png" />
+    <DeviceScreenshot src="https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/2024-12-03/updater_dark.png" />
+    <DeviceScreenshot src="https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/2024-12-03/updater_black.png" />
 </div>
 
 ### Support PixelOS's Development
