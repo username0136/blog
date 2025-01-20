@@ -43,11 +43,6 @@ a {
   color: var(--vp-text-color);
 }
 
-h2 {
-  margin: 0;
-  padding-top: 0;
-}
-
 .media-img {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
