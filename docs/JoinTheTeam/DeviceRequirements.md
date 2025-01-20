@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # Device Requirements
 
 1. RemovePackages **MUST NOT** be used. This is a form of modifying the source code, and is not allowed.
