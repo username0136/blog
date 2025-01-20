@@ -116,7 +116,7 @@ export default defineConfig({
           items: [
             {
               text: "Build Guide",
-              link: "/BuildingPixelOS",
+              link: "BuildingPixelOS",
             },
           ],
         },
