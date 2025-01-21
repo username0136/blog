@@ -1,35 +1,36 @@
-import fs from "node:fs/promises";
-import path from "node:path";
+import { resolve, join } from "path";
 import matter from "gray-matter";
 import removeMd from "remove-markdown";
+import fs from "fs/promises";
 
-(async () => {
-  try {
-    const blogDir = path.resolve(__dirname, "../blog");
-    console.log("Blog directory:", blogDir);
+try {
+  const blogDir = resolve(__dirname, "../blog");
 
-    const blogs = await fs.readdir(blogDir);
+  fs.readdir(blogDir)
+    .then((blogs) => {
+      const dataPromises = blogs.map((blog) => {
+        const filePath = join(blogDir, blog);
+        return fs.readFile(filePath, "utf-8").then((fileContents) => {
+          const { data, content } = matter(fileContents);
+          const title = removeMd(content)
+            .trim()
+            .split(/\r\n|\n|\r/)[0];
+          return {
+            ...data,
+            title,
+            path: `blog/${blog.replace(/\.md$/, "")}`,
+          };
+        });
+      });
 
-    const data = await Promise.all(
-      blogs.map(async (blog) => {
-        const filePath = path.join(blogDir, blog);
-        const fileContents = await fs.readFile(filePath, "utf-8");
-        const file = matter(fileContents);
-        const { data, content } = file;
-        const contents = removeMd(content)
-          .trim()
-          .split(/\r\n|\n|\r/);
-
-        return {
-          ...data,
-          title: contents[0].replace(/\s{2,}/g, "").trim(),
-          path: `blog/${blog.replace(/\.md$/, ".html")}`,
-        };
-      })
-    );
-
-    await fs.writeFile("./data.json", JSON.stringify(data), "utf-8");
-  } catch (error) {
-    console.error("Error processing blogs:", error);
-  }
-})();
+      return Promise.all(dataPromises);
+    })
+    .then((data) => {
+      return Bun.write("./data.json", JSON.stringify(data));
+    })
+    .catch((error) => {
+      console.error("Error processing blogs:", error);
+    });
+} catch (error) {
+  console.error("Error in top-level try block:", error);
+}
