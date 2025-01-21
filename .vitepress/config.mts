@@ -10,6 +10,7 @@ export default defineConfig({
   cleanUrls: true,
   head: [["link", { rel: "icon", href: "/favicon.png" }]],
   description: "Documentation for PixelOS",
+  lastUpdated: true,
 
   themeConfig: {
     logo: "/favicon.png",
@@ -70,6 +71,7 @@ export default defineConfig({
         },
         {
           text: "Guides",
+          collapsed: false,
           base: "/docs/guides/",
           items: [
             { text: "Reporting Bugs", link: "BugReport" },
@@ -94,6 +96,7 @@ export default defineConfig({
         },
         {
           text: "Guides",
+          collapsed: false,
           base: "/docs/guides/",
           items: [
             { text: "Reporting Bugs", link: "BugReport" },
