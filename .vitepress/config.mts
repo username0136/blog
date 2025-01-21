@@ -8,12 +8,12 @@ const blogItems = await getSidebarBlog();
 export default defineConfig({
   title: "PixelOS Docs",
   cleanUrls: true,
-  head: [["link", { rel: "icon", href: "/favicon.png" }]],
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   description: "Documentation for PixelOS",
   lastUpdated: true,
 
   themeConfig: {
-    logo: "/favicon.png",
+    logo: "/favicon.ico",
     nav: [
       {
         text: "Blog",
