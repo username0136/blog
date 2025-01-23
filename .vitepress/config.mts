@@ -1,15 +1,14 @@
 import { defineConfig } from "vitepress";
 
 import { getSidebarBlog } from "./blogUtil";
-import { text } from "node:stream/consumers";
 
 const blogItems = await getSidebarBlog();
 
 export default defineConfig({
   title: "PixelOS Docs",
-  cleanUrls: true,
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   description: "Documentation for PixelOS",
+  cleanUrls: true,
   lastUpdated: true,
 
   themeConfig: {
@@ -19,6 +18,11 @@ export default defineConfig({
         text: "Blog",
         link: `/blog/${blogItems[0].name}`,
         activeMatch: "^/blog/",
+      },
+      {
+        text: "Changelogs",
+        link: "/changelogs",
+        activeMatch: "^/changelogs/",
       },
       {
         text: "For Users",
