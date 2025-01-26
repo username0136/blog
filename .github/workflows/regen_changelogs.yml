@@ -1,0 +1,44 @@
+name: Regen changelogs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+env:
+  BRANCH: "fifteen"
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+  START_DATE: "2024-12-03"
+
+jobs:
+  regen-changelogs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Get Date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+
+      - name: Set-up python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+      - run: pip install -r .github/scripts/requirements.txt
+
+      - name: Regen changelogs
+        run: |
+          cd changelogs
+          python ../.github/scripts/main.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "PixelOS-Bot"
+          git config user.email "pixelos.pixelish@gmail.com"
+          git add changelogs
+          git commit -m 'Regen changelogs as per ${{ steps.date.outputs.date }}'
+          git push
