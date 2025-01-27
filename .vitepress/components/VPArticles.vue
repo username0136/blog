@@ -3,11 +3,10 @@ import data from "/data.json";
 </script>
 
 <template>
-  <div class="articles">
+  <div class="articles flex flex-col gap-4 justify-center">
     <div v-for="(article, index) in data" :key="index">
       <VPArticle
         :title="article.title"
-        :image="article.image"
         :authors="article.authors"
         :tags="article.tags"
         :href="article.path"
@@ -15,12 +14,3 @@ import data from "/data.json";
     </div>
   </div>
 </template>
-
-<style scoped>
-.articles {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-}
-</style>

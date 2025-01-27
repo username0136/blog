@@ -1,7 +1,6 @@
 ---
 title: December 2024 Update
 authors: [whyredfire, hridaya]
-image: https://raw.githubusercontent.com/PixelOS-Releases/banners/fifteen/pixelos-light.jpg
 tags: [PixelOS, AOSP, A15, December]
 ---
 
@@ -40,7 +39,7 @@ We're excited to share a sneak peek of the redesigned Updater app for PixelOS
 remaining issues. In the meantime, here are a few screenshots to give you a
 glimpse of what's coming.
 
-<div style="display: flex; flex-direction:row; gap:12px; overflow-x:auto;">
+<div class="flex flex-row gap-3 overflow-x-auto">
     <DeviceScreenshot src="https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/2024-12-03/updater_light.png" />
     <DeviceScreenshot src="https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/2024-12-03/updater_dark.png" />
     <DeviceScreenshot src="https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/2024-12-03/updater_black.png" />

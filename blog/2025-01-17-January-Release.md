@@ -1,7 +1,6 @@
 ---
 title: January 2025 Update
 authors: [whyredfire, hridaya]
-image: https://raw.githubusercontent.com/PixelOS-CI/blog_assets/refs/heads/main/2025-01-15/banner.png
 tags: [PixelOS, AOSP, A15, January]
 ---
 

@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 import { getSidebarBlog } from "./blogUtil";
+import tailwindcss from "@tailwindcss/vite";
 
 const blogItems = await getSidebarBlog();
 
@@ -10,6 +11,10 @@ export default defineConfig({
   description: "Documentation for PixelOS",
   cleanUrls: true,
   lastUpdated: true,
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 
   themeConfig: {
     logo: "/favicon.ico",

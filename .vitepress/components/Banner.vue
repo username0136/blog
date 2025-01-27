@@ -2,7 +2,7 @@
   <img
     :src="src"
     :alt="alt"
-    :style="{ borderRadius: '12px' }"
+    class="rounded-2xl"
     loading="eager"
     :height="height"
     :width="width"

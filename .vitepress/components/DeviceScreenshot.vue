@@ -3,7 +3,7 @@
     :src="src"
     :width="width"
     :height="height"
-    :style="{ borderRadius: radius + 'px' }"
+    class="rounded-3xl"
     alt="Screenshot"
   />
 </template>
@@ -19,10 +19,6 @@ export default {
     width: {
       type: Number,
       default: 230,
-    },
-    radius: {
-      type: Number,
-      default: 24,
     },
     height: {
       type: Number,
