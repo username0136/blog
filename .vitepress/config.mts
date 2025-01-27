@@ -161,6 +161,11 @@ export default defineConfig({
       ],
     },
 
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright &copy; 2025-present PixelOS",
+    },
+
     socialLinks: [
       { icon: "github", link: "https://github.com/PixelOS-AOSP" },
       { icon: "telegram", link: "https://t.me/PixelOSOfficial" },
