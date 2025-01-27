@@ -1,6 +1,6 @@
 ---
 title: January 2025 Update
-authors: [whyredfire, hridaya]
+authors: [Karan, Hridaya]
 tags: [PixelOS, AOSP, A15, January]
 ---
 

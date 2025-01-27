@@ -1,6 +1,6 @@
 ---
 title: December 2024 Update
-authors: [whyredfire, hridaya]
+authors: [Karan, Hridaya]
 tags: [PixelOS, AOSP, A15, December]
 ---
 
