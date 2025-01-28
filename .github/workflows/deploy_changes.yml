@@ -1,0 +1,12 @@
+name: Deploy changes
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  deploy-changes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy changes
+        run: curl ${{ secrets.VERCEL_DEPLOY_URL }}
