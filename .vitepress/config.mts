@@ -137,6 +137,10 @@ export default defineConfig({
               text: "Build Guide",
               link: "BuildingPixelOS",
             },
+            {
+              text: "Signing builds",
+              link: "SigningBuilds",
+            },
           ],
         },
       ],
