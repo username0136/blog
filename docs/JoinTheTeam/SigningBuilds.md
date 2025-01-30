@@ -1,6 +1,6 @@
 # Signing builds
 
-we've integrated the inline signing implementation from YAAP (thanks to Ido and John), so your builds will be signed automatically. You just need to generate the private keys and place them in vendor/aosp/signing/keys/.
+We've integrated the inline signing implementation from YAAP (thanks to Ido and John), so your builds will be signed automatically. You just need to generate the private keys and place them in vendor/aosp/signing/keys/.
 
 ## Generating the keys
 
