@@ -1,7 +1,9 @@
 import { defineConfig } from "vitepress";
 
-import { getSidebarBlog } from "./blogUtil";
 import tailwindcss from "@tailwindcss/vite";
+import adsense from 'vite-plugin-adsense';
+
+import { getSidebarBlog } from "./blogUtil";
 
 const blogItems = await getSidebarBlog();
 
@@ -13,7 +15,10 @@ export default defineConfig({
   lastUpdated: true,
 
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [
+      tailwindcss(),
+      adsense()
+    ],
   },
 
   themeConfig: {
