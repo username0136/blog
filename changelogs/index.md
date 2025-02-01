@@ -1,5 +1,19 @@
 # Changelogs
 
+## 2025-01-31
+[7f0fd6c](https://github.com/PixelOS-AOSP/frameworks_av/commit/7f0fd6c8dc8c4349017e0870c5c0f49d630fb9c1) CameraProviderExtension: add enabled bool and always set torch _(by John Galt)_  
+[0690387](https://github.com/PixelOS-AOSP/vendor_aosp/commit/0690387332becd4c89cbc1dc9a33f31e36bcb384) BoardConfig: Drop duplicate target_power_libperfmgr_mode_extension_li… _(by Hridaya Prajapati)_  
+[4a7de77](https://github.com/PixelOS-AOSP/frameworks_base/commit/4a7de77f1a187f02e677cc801cb570dc06cb292c) FlashlightStrengthTile: Do NOT leak CameraManager TorchCallback _(by Ido Ben-Hur)_  
+[9c90b4f](https://github.com/PixelOS-AOSP/frameworks_base/commit/9c90b4f9eff7c44835a45272949e5515ff58759c) SystemUI: Introduce Flashlight Strength Tile _(by Anay Wadhera)_  
+[24210fd](https://github.com/PixelOS-AOSP/frameworks_base/commit/24210fd7ff651776286bdbc95995b3a6f89bab00) OplusTypeCastingHelper: update stub _(by arnodorian-r)_  
+[b418ea6](https://github.com/PixelOS-AOSP/frameworks_base/commit/b418ea61beaf11f6fd900fd4e571a9ae5987456e) Add some fwb stubs from Oplus _(by DennySPb)_  
+[3c1205b](https://github.com/PixelOS-AOSP/frameworks_base/commit/3c1205b4859e56f1a301c7060052c9fdeabe46d1) PropImitationHooks: Allow user to disable prop imitation _(by Jyotiraditya Panda)_  
+
+## 2025-01-27
+[1143e12](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/1143e128e05a875798bc1671d1ec9be225393d9d) SettingsFragment: Add back summary for haptic intensity preference _(by NurKeinNeid)_  
+[eae8bd9](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/eae8bd9907bf2c099e742c147220832d94f6a680) ColumbusService: Handle more case for ScreenTouch _(by someone5678)_  
+[cec9208](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/cec9208fc298c10a09aeee96d98ffee0e1354e39) ColumbusService: Add SystemKeyPress gate _(by someone5678)_  
+
 ## 2025-01-26
 [6455974](https://github.com/PixelOS-AOSP/vendor_aosp/commit/645597453289b4f1c018cab15617f23f99f5cd9f) config: Conditionally build ColumbusService _(by someone5678)_  
 [a965d3a](https://github.com/PixelOS-AOSP/vendor_aosp/commit/a965d3a65ceacf4aaec814305364711d364a9fc4) soong: Add libcameraservice extension config _(by Dhina17)_  
