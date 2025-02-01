@@ -1,7 +1,6 @@
 import { defineConfig } from "vitepress";
 
 import tailwindcss from "@tailwindcss/vite";
-import adsense from 'vite-plugin-adsense';
 
 import { getSidebarBlog } from "./blogUtil";
 
@@ -16,8 +15,7 @@ export default defineConfig({
 
   vite: {
     plugins: [
-      tailwindcss(),
-      adsense()
+      tailwindcss()
     ],
   },
 
