@@ -1,5 +1,16 @@
 # Changelogs
 
+## 2025-02-01
+[63b5a79](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/63b5a79cbc83cf7c933cf93711ee6034c6860f30) Settings: Make google's battery widget work _(by ReallySnow)_  
+[a61c3e7](https://github.com/PixelOS-AOSP/frameworks_base/commit/a61c3e78d545b73ca6dddd71d1cbdd2b7b20c931) fixup! SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
+[7c34370](https://github.com/PixelOS-AOSP/frameworks_base/commit/7c343702a5558fe4571203b2235db01590c8ee2b) SystemUI: Don't remove keyguard slice view _(by LuK1337)_  
+[84fb266](https://github.com/PixelOS-AOSP/frameworks_base/commit/84fb26645638b34c179526f474308f6055d4aa92) SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
+[42a3693](https://github.com/PixelOS-AOSP/frameworks_base/commit/42a3693e162ece98693c3c44f78a6030e39816cf) SystemUI: Fix smartspace layout _(by Pranav Vashi)_  
+[a40ca04](https://github.com/PixelOS-AOSP/frameworks_base/commit/a40ca0482451ea0876dfbbcee11dd834c4bdcdd7) SystemUI: SmartspaceSection: Build decoupled views only when required _(by Pranav Vashi)_  
+[7e7f87a](https://github.com/PixelOS-AOSP/vendor_aosp/commit/7e7f87ab98106e6616b095697cb8fc4bd22f00f2) config: Build tensorflow lite jni _(by minaripenguin)_  
+[931158c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/931158ca081235253a10e8b27aacb8f06e208ce1) config: Add text classifier files to allowed product artifacts _(by LuK1337)_  
+[7871800](https://github.com/PixelOS-AOSP/vendor_aosp/commit/787180036ec0f591bd7902d584e20971127464b9) Revert "release: aconfig: Disable communal_hub and migrate_clocks_to_… _(by Hridaya Prajapati)_  
+
 ## 2025-01-31
 [7f0fd6c](https://github.com/PixelOS-AOSP/frameworks_av/commit/7f0fd6c8dc8c4349017e0870c5c0f49d630fb9c1) CameraProviderExtension: add enabled bool and always set torch _(by John Galt)_  
 [0690387](https://github.com/PixelOS-AOSP/vendor_aosp/commit/0690387332becd4c89cbc1dc9a33f31e36bcb384) BoardConfig: Drop duplicate target_power_libperfmgr_mode_extension_li… _(by Hridaya Prajapati)_  
@@ -76,6 +87,7 @@
 [ac91306](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ac91306b7fdf9438a7be640488eec950e3e45c7f) custom-component-overrides: Disable SystemUpdateV2Activity _(by someone5678)_  
 
 ## 2025-01-19
+[eaff4a1](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/eaff4a11f26f706a7c9f53a5433ce4b5a191bee7) ThemeIcons: Update _(by someone5678)_  
 [3d6ac35](https://github.com/PixelOS-AOSP/vendor_aosp/commit/3d6ac35d775d0a8281341746d792d57419424bbb) soong: Make mkdir install dir optional _(by LuK1337)_  
 
 ## 2025-01-18
@@ -94,10 +106,14 @@
 [6f210ac](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/6f210ac58efde990a55e768a57de67a24df5452c) common: Unlabel aw2013 lights HAL _(by LuK1337)_  
 [69dde9f](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/69dde9f38ece403206044f7e78e58c3422fbb99c) common: Label lineage light-service _(by LuK1337)_  
 
+## 2025-01-16
+[175a27f](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/175a27f05ab24e3c56338235e98ca1ab2bae564c) ThemeIcons: Update _(by someone5678)_  
+
 ## 2025-01-15
 [7b0c849](https://github.com/PixelOS-AOSP/vendor_aosp/commit/7b0c849bf11e09dd6d93e2e69bfc776a720443ca) soong: Unset custom charging path var if it is not defined _(by Luofan Chen)_  
 
 ## 2025-01-12
+[e630bff](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/e630bff411cc7e37c8ca45850c184b5af8e6baeb) ThemeIcons: Update _(by someone5678)_  
 [eeac3ae](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/eeac3ae32de6ed4090358976e96fdc4facc66960) UpdatesActivity: Fix disabled CHECK_FOR_UPDATES when check fails _(by Hridaya Prajapati)_  
 [ace9af8](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/ace9af8112ef3e127afccf287d4a85c2629e6c0c) Updater: Fix some warnings _(by Michael W)_  
 [c16d429](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/c16d4294d7f325e365bd24b215e18c2cf7b029fb) Updater: Use Java 17 _(by Hridaya Prajapati)_  
@@ -124,6 +140,7 @@
 [828112f](https://github.com/PixelOS-AOSP/build/commit/828112f55748be82a26cba70361b23bd3bdf8ae0) Merge tag 'android-15.0.0_r10' into fifteen-qpr1 _(by Hridaya Prajapati)_  
 
 ## 2025-01-07
+[e1cd5c3](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/e1cd5c31b438dfe7c697d847f04555951bb37a73) ThemeIcons: Update _(by someone5678)_  
 [f01fbcc](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/f01fbcc3ced761bcaf603769b2c781565b344da4) UpdatesActivity: Don't set changelogs twice _(by Hridaya Prajapati)_  
 
 ## 2025-01-06
