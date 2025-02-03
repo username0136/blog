@@ -1,5 +1,5 @@
 <script setup>
-import data from "/data.json";
+import {data as data} from "../blog.data.ts";
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import data from "/data.json";
         :title="article.title"
         :authors="article.authors"
         :tags="article.tags"
-        :href="article.path"
+        :href="article.url"
       />
     </div>
   </div>

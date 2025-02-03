@@ -3,9 +3,10 @@
     "vitepress": "^1.6.3",
     "vue": "^3.5.13"
   },
+  "type": "module",
   "scripts": {
-    "docs:dev": "bun .vitepress/getBlogs.ts && vitepress dev",
-    "docs:build": "bun .vitepress/getBlogs.ts && vitepress build",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
