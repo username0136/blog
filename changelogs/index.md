@@ -1,5 +1,9 @@
 # Changelogs
 
+## 2025-02-05
+[4d638b5](https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/4d638b5d59dd83984817123589f4811bf5e7d61d) Merge tag 'android-15.0.0_r17' into fifteen-qpr1 _(by Karan Parashar)_  
+[be2ea35](https://github.com/PixelOS-AOSP/system_core/commit/be2ea35cb1cb3098f20a788b76ce6fb1a82579cd) Merge tag 'android-15.0.0_r17' into fifteen-qpr1 _(by Karan Parashar)_  
+
 ## 2025-02-01
 [63b5a79](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/63b5a79cbc83cf7c933cf93711ee6034c6860f30) Settings: Make google's battery widget work _(by ReallySnow)_  
 [a61c3e7](https://github.com/PixelOS-AOSP/frameworks_base/commit/a61c3e78d545b73ca6dddd71d1cbdd2b7b20c931) fixup! SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
@@ -729,6 +733,12 @@
 [f1352b2](https://github.com/PixelOS-AOSP/build/commit/f1352b26ebc09bb8f55758e76639e7290a7962fb) Source custom specific envsetup _(by Michael Bestas)_  
 [78a62b3](https://github.com/PixelOS-AOSP/build/commit/78a62b3c33c8beafc0053aeaaa718b34f71b3e1c) envsetup: export ANDROID_BUILD_TOP earlier _(by Chirayu Desai)_  
 [0e0ee47](https://github.com/PixelOS-AOSP/build/commit/0e0ee47f75ea123e4e21d29041f46e9794399182) build: Include vendor/extra/BoardConfigExtra.mk if available _(by Steve Kondik)_  
+
+## 2024-12-18
+[32ecbe3](https://github.com/PixelOS-AOSP/system_core/commit/32ecbe3713ada81ab4b1b30761b3452f0c096cf1) Merge cherrypicks of ['googleplex-android-review.googlesource.com/296… _(by Android Build Coastguard Worker)_  
+[2e47914](https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/2e4791423698a1fbe79b95aa33f68e29667b3e1c) Merge cherrypicks of ['googleplex-android-review.googlesource.com/301… _(by Android Build Coastguard Worker)_  
+[a536f79](https://github.com/PixelOS-AOSP/system_core/commit/a536f79a5f29a5c4b2df8865a5e5ab364050610b) libdm: Redact keys from dm-crypt targets when calling GetTable. _(by David Anderson)_  
+[cf4a1b8](https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/cf4a1b8498744dce7aa64734145a073bd8af17ac) Unbind CS if connection is not created within 15 seconds. _(by Grant Menke)_  
 
 ## 2024-12-16
 [48dec2a](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/48dec2aeebb69832d6362f3241f7c961790c14cb) lawnicons: Update _(by someone5678)_  
