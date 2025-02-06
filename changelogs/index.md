@@ -1,6 +1,10 @@
 # Changelogs
 
 ## 2025-02-05
+[ce3eca1](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/ce3eca16c513d055b6447091ba82c4aabe164f3a) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
+[490a7fc](https://github.com/PixelOS-AOSP/build/commit/490a7fc33445903ee82554499a12ceea911fb1ba) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
+[8938efb](https://github.com/PixelOS-AOSP/frameworks_base/commit/8938efb0534cadd76b05f643f06e5f243fcafa85) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
+[9148fd1](https://github.com/PixelOS-AOSP/frameworks_av/commit/9148fd188178512ab92b83633db2fd311560b7b1) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
 [4d638b5](https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/4d638b5d59dd83984817123589f4811bf5e7d61d) Merge tag 'android-15.0.0_r17' into fifteen-qpr1 _(by Karan Parashar)_  
 [be2ea35](https://github.com/PixelOS-AOSP/system_core/commit/be2ea35cb1cb3098f20a788b76ce6fb1a82579cd) Merge tag 'android-15.0.0_r17' into fifteen-qpr1 _(by Karan Parashar)_  
 
@@ -734,11 +738,30 @@
 [78a62b3](https://github.com/PixelOS-AOSP/build/commit/78a62b3c33c8beafc0053aeaaa718b34f71b3e1c) envsetup: export ANDROID_BUILD_TOP earlier _(by Chirayu Desai)_  
 [0e0ee47](https://github.com/PixelOS-AOSP/build/commit/0e0ee47f75ea123e4e21d29041f46e9794399182) build: Include vendor/extra/BoardConfigExtra.mk if available _(by Steve Kondik)_  
 
+## 2024-12-19
+[75bb8ba](https://github.com/PixelOS-AOSP/build/commit/75bb8bac25fbc6ae084304c8b2484d47d0746d2b) Version bump to AP4A.250205.002.C1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+
 ## 2024-12-18
+[0530ba2](https://github.com/PixelOS-AOSP/build/commit/0530ba230c8ec87304ad88c9b27891d98dc9ef28) Version bump to AP4A.250205.002 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[10ff44e](https://github.com/PixelOS-AOSP/frameworks_av/commit/10ff44e859d54a539816e8af877d9f3cdc4aabbc) Merge cherrypicks of ['googleplex-android-review.googlesource.com/308… _(by Android Build Coastguard Worker)_  
+[d41da23](https://github.com/PixelOS-AOSP/frameworks_base/commit/d41da232c75a51b4a9023d8d418d7c0a5120c0e2) Merge cherrypicks of ['android-review.googlesource.com/3377189', 'goo… _(by Android Build Coastguard Worker)_  
+[40c5add](https://github.com/PixelOS-AOSP/frameworks_base/commit/40c5add972d2a799c732efa1ba241257daf0443c) Reapply "[res] Duplicate AssetManager when changes are needed" _(by Yurii Zubrytskyi)_  
+[14a7aac](https://github.com/PixelOS-AOSP/frameworks_av/commit/14a7aac2ddf7c40e327ec4d46ca078912384bda9) Revert "Fix audio AppOps refcount mismatch" _(by Atneya Nair)_  
+[b0f3561](https://github.com/PixelOS-AOSP/frameworks_base/commit/b0f35611e7f5c9717c54792d3abb02bf109a7e3f) Clear calling identity when getting global security state _(by Alex Xu)_  
+[25512f4](https://github.com/PixelOS-AOSP/build/commit/25512f49ed46fed8a86b0c8e0f976f557f524506) Version bump to AP4A.250205.001 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
 [32ecbe3](https://github.com/PixelOS-AOSP/system_core/commit/32ecbe3713ada81ab4b1b30761b3452f0c096cf1) Merge cherrypicks of ['googleplex-android-review.googlesource.com/296… _(by Android Build Coastguard Worker)_  
 [2e47914](https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/2e4791423698a1fbe79b95aa33f68e29667b3e1c) Merge cherrypicks of ['googleplex-android-review.googlesource.com/301… _(by Android Build Coastguard Worker)_  
+[446578b](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/446578ba4fc5ce0e9136fb480edaab962f447bc9) Merge cherrypicks of ['googleplex-android-review.googlesource.com/302… _(by Android Build Coastguard Worker)_  
+[608a6c5](https://github.com/PixelOS-AOSP/frameworks_base/commit/608a6c537ba72b88b2ca1d2f3c268d0bf25b6827) Merge cherrypicks of ['googleplex-android-review.googlesource.com/299… _(by Android Build Coastguard Worker)_  
 [a536f79](https://github.com/PixelOS-AOSP/system_core/commit/a536f79a5f29a5c4b2df8865a5e5ab364050610b) libdm: Redact keys from dm-crypt targets when calling GetTable. _(by David Anderson)_  
 [cf4a1b8](https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/cf4a1b8498744dce7aa64734145a073bd8af17ac) Unbind CS if connection is not created within 15 seconds. _(by Grant Menke)_  
+[efb8f84](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/efb8f8401b74acfc766e3f20580c77d3374fd4d1) Don't let profiles open the UserSettings overflow _(by Adam Bookatz)_  
+[046a18c](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/046a18c9ae5fc30cd44f48c8c195583b310f896d) Block the content scheme intent in AccountTypePreferenceLoader _(by Jason Chiu)_  
+[4195d14](https://github.com/PixelOS-AOSP/frameworks_base/commit/4195d149105a121f4ea3a1ab1d5b77e033ee38fc) Remove the mediaProjectionRequestAttributionFix flag _(by Vadim Caen)_  
+[5babd46](https://github.com/PixelOS-AOSP/frameworks_base/commit/5babd4618892cea4ba1c26d9589de299d911833e) Check permissions of URI inside of Autofill Slices _(by Tim Yu)_  
+[d8b9ab7](https://github.com/PixelOS-AOSP/frameworks_base/commit/d8b9ab7859fe9391016f027986b5b4206657d0d0) [CDM] Check for system calling UID when backing up and restoring data _(by Raphael Kim)_  
+[a2c0169](https://github.com/PixelOS-AOSP/build/commit/a2c016915b68ec11d54d286a3bcad76b02e9c0e6) [coastguard skipped] Merge sparse cherrypicks from sparse-12701944-L5… _(by Android Build Coastguard Worker)_  
+[429d414](https://github.com/PixelOS-AOSP/build/commit/429d414e31014e4f0e5e810cf396d06662d05bf7) Version bump to AP4A.250105.002.C1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
 
 ## 2024-12-16
 [48dec2a](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/48dec2aeebb69832d6362f3241f7c961790c14cb) lawnicons: Update _(by someone5678)_  
@@ -753,6 +776,10 @@
 [8bf218c](https://github.com/PixelOS-AOSP/bootable_recovery/commit/8bf218c0bf70f8bd057a4bd0aad71ee5352e92d4) Merge tag 'android-15.0.0_r6' into staging/lineage-22.0_merge-android… _(by Michael Bestas)_  
 [53baa8e](https://github.com/PixelOS-AOSP/bionic/commit/53baa8eac64027ea286e7d98502e785a7bb8a254) Merge tag 'android-15.0.0_r6' into staging/lineage-22.0_merge-android… _(by Michael Bestas)_  
 [70e8d06](https://github.com/PixelOS-AOSP/vendor_aosp/commit/70e8d062fc603c6b9ca30c3b1809c9462c0bb136) aconfig: Enable dynamic injection of settings homepage items _(by aswin7469)_  
+
+## 2024-12-09
+[50909e5](https://github.com/PixelOS-AOSP/build/commit/50909e54ce704ba1c8afa507cd464f90e3dc9861) [coastguard skipped] Merge sparse cherrypicks from sparse-12545800-L1… _(by Android Build Coastguard Worker)_  
+[2d5812a](https://github.com/PixelOS-AOSP/build/commit/2d5812a3d7d1c4033a7b1b621cf799d9efd7991f) Version bump to AP4A.241205.004.R1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
 
 ## 2024-12-07
 [1ba1e92](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/1ba1e9283941a7d9b85545c005ba7371fc54695a) lawnicons: Update _(by someone5678)_  
