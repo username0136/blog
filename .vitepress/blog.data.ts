@@ -28,6 +28,7 @@ export default createContentLoader('blog/*.md', {
         date: formatDate(frontmatter.date)
       }))
       .sort((a, b) => b.date.time - a.date.time)
+      .reverse()
   }
 })
 
