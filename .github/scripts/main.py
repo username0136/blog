@@ -151,5 +151,11 @@ for commit in all_commits:
     output += f"[{commit['hash'][:7]}]({commit['link']}) {commit['title']} _(by {commit['author']})_  \n"
 
 with open("index.md", "w") as f:
-    f.write("# Changelogs\n")
+    f.write(
+        """---
+pageClass: changelogSection
+---
+
+# Changelogs\n"""
+    )
     f.write(output)
