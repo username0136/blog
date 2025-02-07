@@ -1,3 +1,7 @@
+---
+pageClass: changelogSection
+---
+
 # Changelogs
 
 ## 2025-02-05

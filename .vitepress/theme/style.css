@@ -49,3 +49,17 @@ pre {
 }
 
 @import "tailwindcss";
+
+.changelogSection {
+  p > a {
+    font-family: monospace;
+    border: 1px solid var(--vp-c-gray-2);
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  p > * {
+    margin-bottom: 8px;
+  }
+}
