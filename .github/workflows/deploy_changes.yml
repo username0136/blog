@@ -14,9 +14,9 @@ jobs:
       - name: Deploy to Production
         if: github.ref == 'refs/heads/main'
         run: |
-          curl ${{ secrets.VERCEL_DEPLOY_URL }}
+          curl -X POST ${{ secrets.VERCEL_DEPLOY_URL }}
 
       - name: Deploy to Development
         if: github.ref == 'refs/heads/dev'
         run: |
-          curl ${{ secrets.VERCEL_DEPLOY_URL_DEV }}
+          curl -X POST ${{ secrets.VERCEL_DEPLOY_URL_DEV }}
