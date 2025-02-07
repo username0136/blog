@@ -8,7 +8,9 @@ interface BlogItemProps {
   title: string;
 }
 
-export function getSidebarBlog(): BlogItemProps[] {
+export const sidebarBlog = getSidebarBlog();
+
+function getSidebarBlog(): BlogItemProps[] {
   const blogDir = path.resolve(__dirname, "../blog");
   const files = fs.readdirSync(blogDir, { withFileTypes: true });
   const blogItems: BlogItemProps[] = [];
@@ -29,3 +31,25 @@ export function getSidebarBlog(): BlogItemProps[] {
 
   return blogItems.reverse();
 }
+
+interface BlogSideBarProps {
+  text: string;
+  items: { text: string; link: string }[];
+}
+
+export const groupedSidebarBlog = sidebarBlog.reduce<Record<string, BlogSideBarProps>>(
+  (acc, item) => {
+    if (!acc[item.year]) {
+      acc[item.year] = {
+        text: item.year,
+        items: [],
+      };
+    }
+    acc[item.year].items.push({
+      text: item.title,
+      link: `/blog/${item.name}`,
+    });
+    return acc;
+  },
+  {}
+);

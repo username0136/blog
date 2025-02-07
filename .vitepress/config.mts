@@ -2,9 +2,7 @@ import { defineConfig } from "vitepress";
 
 import tailwindcss from "@tailwindcss/vite";
 
-import { getSidebarBlog } from "./blogUtil";
-
-const blogItems = await getSidebarBlog();
+import { groupedSidebarBlog, sidebarBlog } from "./blogUtil";
 
 export default defineConfig({
   title: "PixelOS Docs",
@@ -24,7 +22,7 @@ export default defineConfig({
     nav: [
       {
         text: "Blog",
-        link: `/blog/${blogItems[0].name}`,
+        link: `/blog/${sidebarBlog[0].name}`,
         activeMatch: "^/blog/",
       },
       {
@@ -58,15 +56,7 @@ export default defineConfig({
     },
 
     sidebar: {
-      "/blog/": blogItems.map((item) => ({
-        text: item.year,
-        items: [
-          {
-            text: item.title,
-            link: `/blog/${item.name}`,
-          },
-        ],
-      })),
+      "/blog/": Object.values(groupedSidebarBlog).reverse(),
       "/docs/ForUsers/": [
         {
           base: "/docs/ForUsers/",
