@@ -4,7 +4,25 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-02-07
+[d86eafb](https://github.com/PixelOS-AOSP/frameworks_base/commit/d86eafbb316bb94c41ac8ffefe12bd34b823dfa6) SystemUI: Constrain keyguard indication area burn-in offset _(by Adithya R)_  
+[bdb395a](https://github.com/PixelOS-AOSP/frameworks_base/commit/bdb395adf22ff83d2e3cfc2d07fe1872f4ba18b3) FaceSense: Vibrate on successful authentication _(by Adithya R)_  
+[b3426f3](https://github.com/PixelOS-AOSP/frameworks_base/commit/b3426f3d9cc6e5a9cdd3fa91e4232c250bf77d73) PIHooks: Add a system prop to enable debug logs _(by Adithya R)_  
+[78fdfc1](https://github.com/PixelOS-AOSP/frameworks_base/commit/78fdfc19b77cdcd522b267fbc943c0cfb8e89146) SystemUI: Nuke oriented navbar handle _(by Ido Ben-Hur)_  
+[37ea1b6](https://github.com/PixelOS-AOSP/frameworks_base/commit/37ea1b688d08dd28a483d2a5ae9548fa9e60c446) Add setting to allow/disallow interacting with quick settings on secu… _(by Oliver Scott)_  
+[500ca1b](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/500ca1bfb82c1df35bd4c000f3bd5930b2777455) Add setting to allow/disallow interacting with quick settings on secu… _(by Oliver Scott)_  
+
 ## 2025-02-05
+[946f05d](https://github.com/PixelOS-AOSP/vendor_aosp/commit/946f05d5f5c8b5b3a6545972ba5d7a6834499a42) BlackTheme: Move out string resource from values-night _(by someone5678)_  
+[c0af4eb](https://github.com/PixelOS-AOSP/vendor_aosp/commit/c0af4eb1e07bcddb35245e53ca5f81da0d4547b4) kernel: sign GKI modules _(by dianlujitao)_  
+[f6418d7](https://github.com/PixelOS-AOSP/vendor_aosp/commit/f6418d71147a7c372f9b3f7ad2f9953b366cb3b7) kernel: preserve GKI modules in vendor modules.dep _(by dianlujitao)_  
+[134cb28](https://github.com/PixelOS-AOSP/vendor_aosp/commit/134cb283495e7466ef2757e8d5cf721173080305) kernel: break the build when depmod finds missing symbols _(by dianlujitao)_  
+[2ec46dd](https://github.com/PixelOS-AOSP/vendor_aosp/commit/2ec46dd250015a36f2fd79cc9a22c347c4907c77) kernel: consider gki modules when running depmod for vendor modules _(by dianlujitao)_  
+[d5cd8fa](https://github.com/PixelOS-AOSP/vendor_aosp/commit/d5cd8faa667b563a11b08599802faf3c63460631) kernel: reduce the use of find when copying modules _(by dianlujitao)_  
+[3ae50ac](https://github.com/PixelOS-AOSP/vendor_aosp/commit/3ae50ac458c35f5877c9db295811771c4a82282d) merge_dtbs: Craft unique name for final saved merged trees _(by Guru Das Srinagesh)_  
+[a210b3f](https://github.com/PixelOS-AOSP/vendor_aosp/commit/a210b3fe540925e9b2c0fa18c162a77a3be274b5) merge_dtbs: Use logging and argparse _(by Guru Das Srinagesh)_  
+[21f4c46](https://github.com/PixelOS-AOSP/vendor_aosp/commit/21f4c46ba66b1513790d7bcd3f20485fdce6a0eb) merge_dtbs.py: Print only basenames of dtb* files _(by Guru Das Srinagesh)_  
+[1c9d0a9](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/1c9d0a9359723aaea3dce7220614f985c4ff6e75) sepolicy: Label pihooks gms disable props _(by Adithya R)_  
 [ce3eca1](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/ce3eca16c513d055b6447091ba82c4aabe164f3a) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
 [490a7fc](https://github.com/PixelOS-AOSP/build/commit/490a7fc33445903ee82554499a12ceea911fb1ba) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
 [8938efb](https://github.com/PixelOS-AOSP/frameworks_base/commit/8938efb0534cadd76b05f643f06e5f243fcafa85) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
