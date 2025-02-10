@@ -4,6 +4,19 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-02-09
+[b3ce836](https://github.com/PixelOS-AOSP/vendor_aosp/commit/b3ce8364d3938b000717634cb011d15a4a49df4c) Revert "config: Changes for libfmjni bp conversion" _(by borbelyvince)_  
+[68c11d1](https://github.com/PixelOS-AOSP/vendor_aosp/commit/68c11d12afe898cd9c1713bafd6e1292d30d4270) vendor: overlay: Remove BT Slice intent resources _(by Hridaya Prajapati)_  
+[923af49](https://github.com/PixelOS-AOSP/vendor_aosp/commit/923af493d2da992298ebb36f9afef5ca19fc2051) config: Migrate from "call inherit-product" to include _(by Hridaya Prajapati)_  
+[c047514](https://github.com/PixelOS-AOSP/vendor_aosp/commit/c0475145785b650e98a39390c3615100b411e77d) overlay: Remove ThemedIconsOverlay _(by Hridaya Prajapati)_  
+[654aa26](https://github.com/PixelOS-AOSP/vendor_aosp/commit/654aa26fb51292a758d3752e16a65eca1335d038) config: Move fonts Makefile to it's own folder _(by Hridaya Prajapati)_  
+[56428d4](https://github.com/PixelOS-AOSP/vendor_aosp/commit/56428d434c3d756c57a79ab4beafc8c7d14bd414) vendor: Remove bash completion scripts _(by Hridaya Prajapati)_  
+[25b01b7](https://github.com/PixelOS-AOSP/vendor_aosp/commit/25b01b764be3a186f7a45d4b6f2c55f97576c45a) Revert "vendor: Fetch APNs from Pixel 6 Pro" _(by Hridaya Prajapati)_  
+[d4e9647](https://github.com/PixelOS-AOSP/vendor_aosp/commit/d4e96473ea2d0c859156cad1b40c8b56dbb3749f) config: Drop CUSTOM_LOCALES _(by Hridaya Prajapati)_  
+[a2378a5](https://github.com/PixelOS-AOSP/vendor_aosp/commit/a2378a5921c48038a5f10ce97f408cd2f792be70) config: custom-privapp-permissions: Add permissions for Updater _(by Hridaya Prajapati)_  
+[25a89d6](https://github.com/PixelOS-AOSP/frameworks_base/commit/25a89d676ba7b66f3a25483909882e1221c51953) SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions _(by LuK1337)_  
+[f1d14da](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/f1d14da77f5d62ccc1049e46a87c07c52d9de41e) Revert "Settings: Make google's battery widget work" _(by Hridaya Prajapati)_  
+
 ## 2025-02-07
 [d86eafb](https://github.com/PixelOS-AOSP/frameworks_base/commit/d86eafbb316bb94c41ac8ffefe12bd34b823dfa6) SystemUI: Constrain keyguard indication area burn-in offset _(by Adithya R)_  
 [bdb395a](https://github.com/PixelOS-AOSP/frameworks_base/commit/bdb395adf22ff83d2e3cfc2d07fe1872f4ba18b3) FaceSense: Vibrate on successful authentication _(by Adithya R)_  
