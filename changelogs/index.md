@@ -4,6 +4,10 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-02-10
+[9e97db7](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/9e97db7ed830703656471dd3436c1be772124a77) Restrict access to custom properties _(by Michael Bestas)_  
+[6fda6b3](https://github.com/PixelOS-AOSP/vendor_aosp/commit/6fda6b33f87fb5a2aa17775c9e709722537a2868) config: Long live ro.modversion _(by Michael Bestas)_  
+
 ## 2025-02-09
 [b3ce836](https://github.com/PixelOS-AOSP/vendor_aosp/commit/b3ce8364d3938b000717634cb011d15a4a49df4c) Revert "config: Changes for libfmjni bp conversion" _(by borbelyvince)_  
 [68c11d1](https://github.com/PixelOS-AOSP/vendor_aosp/commit/68c11d12afe898cd9c1713bafd6e1292d30d4270) vendor: overlay: Remove BT Slice intent resources _(by Hridaya Prajapati)_  
