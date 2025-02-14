@@ -4,11 +4,58 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-02-13
+[03dd454](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/03dd454108f65dd9a1ef86c133370352dacd3130) Restrict access to custom properties _(by Michael Bestas)_  
+[4466573](https://github.com/PixelOS-AOSP/frameworks_base/commit/4466573575e23cf2b9b7e6532aa22e0242fe730b) JobScheduler: Respect allow-in-power-save perm _(by Tommy Webb)_  
+[67b7fa9](https://github.com/PixelOS-AOSP/frameworks_base/commit/67b7fa9724996400adf9ea85af539c8f59e937bd) Revert "DeviceIdleJobsController: don't ignore whitelisted system apps" _(by Hridaya Prajapati)_  
+[682b69d](https://github.com/PixelOS-AOSP/frameworks_base/commit/682b69de61bbf907ec7fc995538f450a11c461d2) SystemUI: Check whether the selected WFD route is available _(by Weijie Wang)_  
+[b521079](https://github.com/PixelOS-AOSP/frameworks_base/commit/b52107915d85e01abc2e9f2de41491337578770e) camera2: allow access to CaptureRequest.mLogicalCameraSettings _(by Cosmin Tanislav)_  
+[8b0a400](https://github.com/PixelOS-AOSP/frameworks_base/commit/8b0a400ecfe7c23801be899d39aaa40417130487) base: Export bodyFontFamily and bodyFontFamilyMedium symbols _(by Pranav Vashi)_  
+[5ecd561](https://github.com/PixelOS-AOSP/frameworks_base/commit/5ecd56137f4841c329b8838944adda81a4f1acd8) CachedAppOptimizer : Pageout File pages during system compaction _(by Divyanand Rangu)_  
+[ef03a9e](https://github.com/PixelOS-AOSP/frameworks_base/commit/ef03a9e8c36a7f396254d6207975782daa3ddf85) webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well _(by LuK1337)_  
+[a04e0c9](https://github.com/PixelOS-AOSP/frameworks_base/commit/a04e0c9d08320de33a90a60d65762f6ad4274402) SystemUI: Fix QS customizer corner radius _(by Pranav Vashi)_  
+[d17c5d3](https://github.com/PixelOS-AOSP/frameworks_base/commit/d17c5d3af28ce299dcc769bbfa3ae798b4c5dbc4) SystemUI: Fix flashlight strength tile in secondary user _(by Adithya R)_  
+[df825f9](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/df825f9d7ea3763ade702026a7ca102d55bc8f54) fixup! Revert "[Sim UI enhancement] remove the "Tap to show info"" _(by Adithya R)_  
+[0192e10](https://github.com/PixelOS-AOSP/frameworks_base/commit/0192e10478b2c7806366494b2098822229551b13) SystemUI: volume dialog: Align padding/margin for left and right _(by Arian)_  
+[e8c08e5](https://github.com/PixelOS-AOSP/frameworks_base/commit/e8c08e5a10584da500491024e18ef10dece47619) Revert "VolumeDialogImpl: Ignore external layout direction changes" _(by Hridaya Prajapati)_  
+[391d8dc](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/391d8dc01c94c2d01f191f6b05393aec6582e573) SettingsActivity: Update status if failed to download _(by Hridaya Prajapati)_  
+[8c9a9cd](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/8c9a9cd603eca37f4bd19d05ed8995450ca45704) Updater: Remove padding from the button layouts _(by Hridaya Prajapati)_  
+[e397730](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/e397730acb99e7d9934459282fd2625bbb21e16f) Updater: Add an ability to update certified props from server _(by Hridaya Prajapati)_  
+[9523102](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/9523102ff903af3868a0a1a4c903276f94321f87) Updater: Gradle && AGP upgrade _(by Hridaya Prajapati)_  
+[48848e0](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/48848e0f14aaa29fffe1eb45958f1c40ec669df8) Updater: Migrate to Kotlin _(by Hridaya Prajapati)_  
+[37ee6cc](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/37ee6cc55f248ebfcbca51bce350e4e186fb8e35) ColumbusSerivce: Clean-ups and fix-ups _(by someone5678)_  
+[51dec3d](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/51dec3df1776b8a88d943b051a2f17ba36b0fcc7) New Crowdin updates (#1) _(by Karan Parashar)_  
+[5ee59db](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/5ee59db14c6d0504c83f3d38fc13cbb3d5d8ed20) New Crowdin updates (#1) _(by Karan Parashar)_  
+[14b590f](https://github.com/PixelOS-AOSP/frameworks_base/commit/14b590fc4b3f0c42d9fbf659cebfbbea218767a9) New Crowdin updates (#1) _(by Karan Parashar)_  
+[8838da5](https://github.com/PixelOS-AOSP/frameworks_base/commit/8838da55dcf3a77a48e1e6a0d2817a7a8865cf76) SystemUI: Fix burn-in translations not applying to keyguard slices _(by Andy CrossGate Yan)_  
+[cbf4929](https://github.com/PixelOS-AOSP/frameworks_base/commit/cbf49295642ff7c2ca03d023e19301a5b7b59bd6) BluetoothControllerImpl: Optimize connected battery level scanning _(by minaripenguin)_  
+[ffa65d0](https://github.com/PixelOS-AOSP/frameworks_base/commit/ffa65d0ec2e7eecc8bc486fe0dbd4ee0642d1e29) BluetoothControllerImpl: fetch battery level from any device _(by jhonboy121)_  
+[f261a5d](https://github.com/PixelOS-AOSP/frameworks_base/commit/f261a5df83167d09044af0d05d5c012a174ebc8d) BluetoothControllerImpl: Synchronize mConnectedDevices access _(by jhonboy121)_  
+[a5178d7](https://github.com/PixelOS-AOSP/frameworks_base/commit/a5178d77a7c973832b6212bf17111f0934b115d8) Revert "AudioService: do not log sound effects in audio dumpsys" _(by jro1979oliver)_  
+[3b5c028](https://github.com/PixelOS-AOSP/frameworks_base/commit/3b5c028d468456d2a76f24ccffe23842a7f49c67) FlashlightStrengthTile: Move torch strength percentage to description _(by Hridaya Prajapati)_  
+
+## 2025-02-12
+[73fe564](https://github.com/PixelOS-AOSP/frameworks_base/commit/73fe5649e334ee604ddd7303acad2852cbb85db9) SystemUI: Fix Internet Tile showing no service _(by Tommy Webb)_  
+[524205f](https://github.com/PixelOS-AOSP/frameworks_base/commit/524205f29ce0293c1e35bd9ec9069c61a2e7d7fd) s2ss: Remove property usage _(by LibXZR)_  
+
+## 2025-02-11
+[40e9237](https://github.com/PixelOS-AOSP/frameworks_base/commit/40e9237ad20477e3f7743d3fc69394e200c69fc5) SystemUI: require unlocking to use QS tiles _(by Dmitry Muhomor)_  
+[7f8e1c7](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/7f8e1c72e60c2e00bfdbd93be7e7fbeed8371515) Add setting to allow/disallow interacting with quick settings on secu… _(by Oliver Scott)_  
+[8f4705d](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/8f4705d3f6c30a04eca1b966b0e5cde1a012b6a0) ColumbusService: Actually get simpleName for gate logging _(by someone5678)_  
+[fd7521c](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/fd7521cdc1e4be76340063f80c974b0cc8efdc87) ColumbusService: Correctly handle getModelFileName _(by someone5678)_  
+[86ec5fa](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/86ec5fa645c222af14568de1aab01c234b6c9d8c) ColumbusService: Update default_model description _(by someone5678)_  
+[d6cd2f4](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/d6cd2f48fd9e0c671b37dd640721d33bbb9d9229) ColumbusService: Update PocketDetection gate _(by someone5678)_  
+[350e0ec](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/350e0eca606360de1a23cd9e3b2fc9af29e4559b) ColumbusService: Code clean-ups _(by someone5678)_  
+[c423b01](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/c423b013b1c97349f9a4d9d801557f0099c6673e) ColumbusService: Proper logging _(by someone5678)_  
+[c3c033d](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/c3c033df2c48684ace604c5cd1b026b5d749851b) ColumbusService: sensors: Update code _(by someone5678)_  
+
 ## 2025-02-10
-[9e97db7](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/9e97db7ed830703656471dd3436c1be772124a77) Restrict access to custom properties _(by Michael Bestas)_  
+[c78c810](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/c78c810ef3a5b484e90386a96d527b411f9a3fbf) Settings: Make SIM toggle unchangable when not supported _(by LuK1337)_  
 [6fda6b3](https://github.com/PixelOS-AOSP/vendor_aosp/commit/6fda6b33f87fb5a2aa17775c9e709722537a2868) config: Long live ro.modversion _(by Michael Bestas)_  
+[bdc7875](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/bdc787567a8bc9bb1d11fd9b9ab68801b7ae1cb0) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
 
 ## 2025-02-09
+[4fb181a](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/4fb181a83b391deb57450f46aee12ad90d18fa57) ColumbusService: Restore screen callback registering logic _(by someone5678)_  
 [b3ce836](https://github.com/PixelOS-AOSP/vendor_aosp/commit/b3ce8364d3938b000717634cb011d15a4a49df4c) Revert "config: Changes for libfmjni bp conversion" _(by borbelyvince)_  
 [68c11d1](https://github.com/PixelOS-AOSP/vendor_aosp/commit/68c11d12afe898cd9c1713bafd6e1292d30d4270) vendor: overlay: Remove BT Slice intent resources _(by Hridaya Prajapati)_  
 [923af49](https://github.com/PixelOS-AOSP/vendor_aosp/commit/923af493d2da992298ebb36f9afef5ca19fc2051) config: Migrate from "call inherit-product" to include _(by Hridaya Prajapati)_  
@@ -19,7 +66,28 @@ pageClass: changelogSection
 [d4e9647](https://github.com/PixelOS-AOSP/vendor_aosp/commit/d4e96473ea2d0c859156cad1b40c8b56dbb3749f) config: Drop CUSTOM_LOCALES _(by Hridaya Prajapati)_  
 [a2378a5](https://github.com/PixelOS-AOSP/vendor_aosp/commit/a2378a5921c48038a5f10ce97f408cd2f792be70) config: custom-privapp-permissions: Add permissions for Updater _(by Hridaya Prajapati)_  
 [25a89d6](https://github.com/PixelOS-AOSP/frameworks_base/commit/25a89d676ba7b66f3a25483909882e1221c51953) SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions _(by LuK1337)_  
-[f1d14da](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/f1d14da77f5d62ccc1049e46a87c07c52d9de41e) Revert "Settings: Make google's battery widget work" _(by Hridaya Prajapati)_  
+[6781c0b](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/6781c0b7baf6d9660bc04fbb8b7f2d372e688907) ColumbusService: Handle SettingsGate separately _(by someone5678)_  
+[42536dd](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/42536dd9440e4fa88ed92d0b0e56f2aefd64d7e0) ColumbusService: Fix some actions tried to run on lockscreen _(by someone5678)_  
+[752f45a](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/752f45a86887dd983bd35fc5429a62daf03476c9) ColumbusService: CHRESensor: Resolve name shadowed warning _(by someone5678)_  
+[5478a87](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/5478a87d776d5619732f9349d9abd631f30499b8) ColumbusService: TapRT: Resolve build warning _(by someone5678)_  
+[f62c0a6](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/f62c0a6caaf0f6d530aa003a3f12d9ce7fd9f99e) ColumbusService: Replace deprecated InputManager instance call _(by someone5678)_  
+[197f242](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/197f242df93e5f5b935b275adfeb2817b1d9d534) ColumbusService: LaunchAction: Resolve build warnings _(by someone5678)_  
+[77ac164](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/77ac1647667f9555451fb88716e18637ccd8bad2) ColumbusService: Code refactoring _(by someone5678)_  
+[5336c5e](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/5336c5ec833cd398d51528d0bfc5d59de6f21c85) ColumbusService: Update VrMode gate _(by someone5678)_  
+[6f1377e](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/6f1377e8a13825560eebcc62f81f88012d875c4c) ColumbusService: Update UsbState gate _(by someone5678)_  
+[1af4035](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/1af4035b824f42d90ca4cd422ba50cd943c102b4) ColumbusService: Update TelephonyActivity gate _(by someone5678)_  
+[f841935](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/f84193554b2bb0d499bde99795e249c258d0ffbc) ColumbusService: Simplify PowerSaveState gate _(by someone5678)_  
+[339887a](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/339887abe1d15a81ea0d71d7391457499f273ad1) ColumbusService: Run ktfmt _(by someone5678)_  
+[99dba3a](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/99dba3a190abf01a37d8a75b55242cbeae3ec06e) ColumbusService: Update TableDetection gate _(by someone5678)_  
+[86786d8](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/86786d887e735dcc9bf076ff6b34113c6ad25310) ColumbusService: Simplify PocketDetection gate _(by someone5678)_  
+[eca181a](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/eca181a4cb5af26b1209309ee56d88ab211f39c2) ColumbusService: Update SystemKeyPress gate _(by someone5678)_  
+[07c1a02](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/07c1a02e1585f0cb451aa5126cbcf52f685ebe72) ColumbusService: Correctly handle screen touch blocking _(by someone5678)_  
+
+## 2025-02-08
+[d4be6dc](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/d4be6dc3d27fba763b0598c70a42b8e91ee338dd) ColumbusService: Unify Haptic Intensity code style _(by someone5678)_  
+[64eb3da](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/64eb3dad26abb20efd9253c6bc07cd4b7fe47fc3) SettingsFragment: Improve haptic intensity preference behavior _(by NurKeinNeid)_  
+[ceffe2b](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/ceffe2b7e894f79ebefbdc3848ac65c6bcbea58f) ColumbusService: Import German translations _(by Alexander Brunswig)_  
+[42e5fee](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/42e5fee368fba3e24db0d60f0d34a57284d02b6a) SettingsFragment: Add back summary for haptic intensity preference _(by NurKeinNeid)_  
 
 ## 2025-02-07
 [d86eafb](https://github.com/PixelOS-AOSP/frameworks_base/commit/d86eafbb316bb94c41ac8ffefe12bd34b823dfa6) SystemUI: Constrain keyguard indication area burn-in offset _(by Adithya R)_  
@@ -27,7 +95,6 @@ pageClass: changelogSection
 [b3426f3](https://github.com/PixelOS-AOSP/frameworks_base/commit/b3426f3d9cc6e5a9cdd3fa91e4232c250bf77d73) PIHooks: Add a system prop to enable debug logs _(by Adithya R)_  
 [78fdfc1](https://github.com/PixelOS-AOSP/frameworks_base/commit/78fdfc19b77cdcd522b267fbc943c0cfb8e89146) SystemUI: Nuke oriented navbar handle _(by Ido Ben-Hur)_  
 [37ea1b6](https://github.com/PixelOS-AOSP/frameworks_base/commit/37ea1b688d08dd28a483d2a5ae9548fa9e60c446) Add setting to allow/disallow interacting with quick settings on secu… _(by Oliver Scott)_  
-[500ca1b](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/500ca1bfb82c1df35bd4c000f3bd5930b2777455) Add setting to allow/disallow interacting with quick settings on secu… _(by Oliver Scott)_  
 
 ## 2025-02-05
 [946f05d](https://github.com/PixelOS-AOSP/vendor_aosp/commit/946f05d5f5c8b5b3a6545972ba5d7a6834499a42) BlackTheme: Move out string resource from values-night _(by someone5678)_  
@@ -40,7 +107,6 @@ pageClass: changelogSection
 [a210b3f](https://github.com/PixelOS-AOSP/vendor_aosp/commit/a210b3fe540925e9b2c0fa18c162a77a3be274b5) merge_dtbs: Use logging and argparse _(by Guru Das Srinagesh)_  
 [21f4c46](https://github.com/PixelOS-AOSP/vendor_aosp/commit/21f4c46ba66b1513790d7bcd3f20485fdce6a0eb) merge_dtbs.py: Print only basenames of dtb* files _(by Guru Das Srinagesh)_  
 [1c9d0a9](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/1c9d0a9359723aaea3dce7220614f985c4ff6e75) sepolicy: Label pihooks gms disable props _(by Adithya R)_  
-[ce3eca1](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/ce3eca16c513d055b6447091ba82c4aabe164f3a) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
 [490a7fc](https://github.com/PixelOS-AOSP/build/commit/490a7fc33445903ee82554499a12ceea911fb1ba) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
 [8938efb](https://github.com/PixelOS-AOSP/frameworks_base/commit/8938efb0534cadd76b05f643f06e5f243fcafa85) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
 [9148fd1](https://github.com/PixelOS-AOSP/frameworks_av/commit/9148fd188178512ab92b83633db2fd311560b7b1) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
@@ -48,7 +114,6 @@ pageClass: changelogSection
 [be2ea35](https://github.com/PixelOS-AOSP/system_core/commit/be2ea35cb1cb3098f20a788b76ce6fb1a82579cd) Merge tag 'android-15.0.0_r17' into fifteen-qpr1 _(by Karan Parashar)_  
 
 ## 2025-02-01
-[63b5a79](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/63b5a79cbc83cf7c933cf93711ee6034c6860f30) Settings: Make google's battery widget work _(by ReallySnow)_  
 [a61c3e7](https://github.com/PixelOS-AOSP/frameworks_base/commit/a61c3e78d545b73ca6dddd71d1cbdd2b7b20c931) fixup! SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
 [7c34370](https://github.com/PixelOS-AOSP/frameworks_base/commit/7c343702a5558fe4571203b2235db01590c8ee2b) SystemUI: Don't remove keyguard slice view _(by LuK1337)_  
 [84fb266](https://github.com/PixelOS-AOSP/frameworks_base/commit/84fb26645638b34c179526f474308f6055d4aa92) SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
@@ -68,8 +133,6 @@ pageClass: changelogSection
 [3c1205b](https://github.com/PixelOS-AOSP/frameworks_base/commit/3c1205b4859e56f1a301c7060052c9fdeabe46d1) PropImitationHooks: Allow user to disable prop imitation _(by Jyotiraditya Panda)_  
 
 ## 2025-01-27
-[1143e12](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/1143e128e05a875798bc1671d1ec9be225393d9d) SettingsFragment: Add back summary for haptic intensity preference _(by NurKeinNeid)_  
-[eae8bd9](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/eae8bd9907bf2c099e742c147220832d94f6a680) ColumbusService: Handle more case for ScreenTouch _(by someone5678)_  
 [cec9208](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/cec9208fc298c10a09aeee96d98ffee0e1354e39) ColumbusService: Add SystemKeyPress gate _(by someone5678)_  
 
 ## 2025-01-26
