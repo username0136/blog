@@ -4,6 +4,10 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-02-14
+[5eaf9dd](https://github.com/PixelOS-AOSP/frameworks_base/commit/5eaf9dd9908bdf135323c3171419334ff0475a67) FingerprintUtils: Migrate old fp config xml to new one on HIDL/AIDL s… _(by Luofan Chen)_  
+[896b638](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/896b638526b63d74a47293463b424b47883363f3) PixelLauncherOverlay: manifest: Add android:isStatic _(by Hridaya Prajapati)_  
+
 ## 2025-02-13
 [03dd454](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/03dd454108f65dd9a1ef86c133370352dacd3130) Restrict access to custom properties _(by Michael Bestas)_  
 [4466573](https://github.com/PixelOS-AOSP/frameworks_base/commit/4466573575e23cf2b9b7e6532aa22e0242fe730b) JobScheduler: Respect allow-in-power-save perm _(by Tommy Webb)_  
@@ -112,6 +116,9 @@ pageClass: changelogSection
 [9148fd1](https://github.com/PixelOS-AOSP/frameworks_av/commit/9148fd188178512ab92b83633db2fd311560b7b1) Merge tag 'android-15.0.0_r17' into fifteen _(by Karan Parashar)_  
 [4d638b5](https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/4d638b5d59dd83984817123589f4811bf5e7d61d) Merge tag 'android-15.0.0_r17' into fifteen-qpr1 _(by Karan Parashar)_  
 [be2ea35](https://github.com/PixelOS-AOSP/system_core/commit/be2ea35cb1cb3098f20a788b76ce6fb1a82579cd) Merge tag 'android-15.0.0_r17' into fifteen-qpr1 _(by Karan Parashar)_  
+
+## 2025-02-02
+[81f63d7](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/81f63d7e20d8a573091116664102fd5bda65ccce) ThemeIcons: Update _(by someone5678)_  
 
 ## 2025-02-01
 [a61c3e7](https://github.com/PixelOS-AOSP/frameworks_base/commit/a61c3e78d545b73ca6dddd71d1cbdd2b7b20c931) fixup! SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
