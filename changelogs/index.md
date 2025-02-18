@@ -4,9 +4,20 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-02-17
+[f5e7b69](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/f5e7b69225896ee5ef424c01076110df3b9dadbe) PixelLauncherIconsOverlay: Add drawable for OPlus Camera _(by Karan Parashar)_  
+[6325a36](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/6325a36acb1359cfd42d4df762eee0a32b9861d9) PixelLauncherOverlay: Update _(by Hridaya Prajapati)_  
+
+## 2025-02-16
+[3dd689b](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/3dd689b7beecfb680240e203ec87a3d819ace993) ColumbusService: Add copyright notice _(by someone5678)_  
+[f870958](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/f8709582852f7207f8d1f0740f92b3549cccf2df) ThemeIcons: Add copyright notice _(by someone5678)_  
+[82dadeb](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/82dadeb8bd0c9fb65d768a439a62f3a2fab92d44) ColumbusService: Add PowerState gate _(by someone5678)_  
+[96eef11](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/96eef116bfe152feb8ca660949b95b6e0db28d14) ColumbusService: Always block on action ACTION_DOWN _(by someone5678)_  
+
 ## 2025-02-14
 [5eaf9dd](https://github.com/PixelOS-AOSP/frameworks_base/commit/5eaf9dd9908bdf135323c3171419334ff0475a67) FingerprintUtils: Migrate old fp config xml to new one on HIDL/AIDL s… _(by Luofan Chen)_  
-[896b638](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/896b638526b63d74a47293463b424b47883363f3) PixelLauncherOverlay: manifest: Add android:isStatic _(by Hridaya Prajapati)_  
+[378332c](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/378332c713b403da54804a8051293dc08d206a54) ColumbusService: Update ScreenTouch gate _(by someone5678)_  
+[6ca69ee](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/6ca69ee65b5f4ad0df0d205202a1aa4cebf0dde0) ColumbusSerivce: Clean-ups and fix-ups _(by someone5678)_  
 
 ## 2025-02-13
 [03dd454](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/03dd454108f65dd9a1ef86c133370352dacd3130) Restrict access to custom properties _(by Michael Bestas)_  
@@ -27,7 +38,6 @@ pageClass: changelogSection
 [e397730](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/e397730acb99e7d9934459282fd2625bbb21e16f) Updater: Add an ability to update certified props from server _(by Hridaya Prajapati)_  
 [9523102](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/9523102ff903af3868a0a1a4c903276f94321f87) Updater: Gradle && AGP upgrade _(by Hridaya Prajapati)_  
 [48848e0](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/48848e0f14aaa29fffe1eb45958f1c40ec669df8) Updater: Migrate to Kotlin _(by Hridaya Prajapati)_  
-[37ee6cc](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/37ee6cc55f248ebfcbca51bce350e4e186fb8e35) ColumbusSerivce: Clean-ups and fix-ups _(by someone5678)_  
 [51dec3d](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/51dec3df1776b8a88d943b051a2f17ba36b0fcc7) New Crowdin updates (#1) _(by Karan Parashar)_  
 [5ee59db](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/5ee59db14c6d0504c83f3d38fc13cbb3d5d8ed20) New Crowdin updates (#1) _(by Karan Parashar)_  
 [14b590f](https://github.com/PixelOS-AOSP/frameworks_base/commit/14b590fc4b3f0c42d9fbf659cebfbbea218767a9) New Crowdin updates (#1) _(by Karan Parashar)_  
