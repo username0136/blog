@@ -4,13 +4,27 @@ pageClass: changelogSection
 
 # Changelogs
 
-## 2025-02-17
-[f5e7b69](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/f5e7b69225896ee5ef424c01076110df3b9dadbe) PixelLauncherIconsOverlay: Add drawable for OPlus Camera _(by Karan Parashar)_  
-[6325a36](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/6325a36acb1359cfd42d4df762eee0a32b9861d9) PixelLauncherOverlay: Update _(by Hridaya Prajapati)_  
+## 2025-02-18
+[b1e3bb0](https://github.com/PixelOS-AOSP/vendor_aosp/commit/b1e3bb0164e349585b59af14f4bd0978cf9ae4da) apns: Update for ChinaTelecom Macau (CTMO) _(by Flicker372)_  
+[e72adaf](https://github.com/PixelOS-AOSP/vendor_aosp/commit/e72adaf99678d1c387993a476deac8fbf00531eb) apns: Update Lebara UK _(by razorloves)_  
+[5189a51](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/5189a51b0a7674b19847011d544005f21e680440) common: private: Don't audit mediahshell_app get wifi_config_prop _(by Nolen Johnson)_  
+[612ce75](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/612ce75675ead8bac7e72e95843670740a2c4802) common: private: Update ATV rules _(by Nolen Johnson)_  
+[af455d4](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/af455d4766c81d1da2c8ab14a9c2a998dc073808) common: label Lineage fingerprint AIDL _(by Han Sol Jin)_  
+[4defd7f](https://github.com/PixelOS-AOSP/build_soong/commit/4defd7fcf6a2c462c3678e3bb0107a22dcf1f4e3) Use blueprint/pool _(by Colin Cross)_  
+[9ec361d](https://github.com/PixelOS-AOSP/build_soong/commit/9ec361da740e7ab440b6f79965aa43c815acb662) Optimize getJarJarRuleText _(by Colin Cross)_  
+[8dfca7a](https://github.com/PixelOS-AOSP/build_soong/commit/8dfca7a18fc20532f6bf0e07c606d0fd33ea4d18) check_boot_jars: Add NT packages to whitelist _(by aswin7469)_  
+[1c5470b](https://github.com/PixelOS-AOSP/build_soong/commit/1c5470b165be5b3042730ba0c84f1668c74fd2f4) Disable source map id usage in eng builds _(by Jared Duke)_  
+[13fb529](https://github.com/PixelOS-AOSP/build_soong/commit/13fb52981c4f480809269153fbdc7323cb1a3999) Allow selective R8 optimization for eng test_suites _(by Jared Duke)_  
+[6bdde5c](https://github.com/PixelOS-AOSP/build/commit/6bdde5c95f52b86e184be4986c2cfc3860bb966c) Fix false positive when checking ELF prebuilts in PRODUCT_COPY_FILES _(by dianlujitao)_  
+[0544937](https://github.com/PixelOS-AOSP/build/commit/0544937aed3c455319289337a70c99afbf7c88cc) Install adb_keys into recovery _(by LuK1337)_  
+[5763868](https://github.com/PixelOS-AOSP/build/commit/57638682d2ae203e006bf032f7a9014bc5a322d4) Revert "Drop legacy vboot support." _(by Nolen Johnson)_  
+[5e73888](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/5e73888d01a40b05833245b5c502b2c916a9ccc2) PixelLauncherIconsOverlay: Initial import from AOSPA _(by Hridaya Prajapati)_  
+[76ea155](https://github.com/PixelOS-AOSP/build/commit/76ea155f01d474600de2e009db7e2cc2bd19671e) releasetools: remove scratch partition in ota _(by Thomas Makin)_  
+[355eb85](https://github.com/PixelOS-AOSP/frameworks_base/commit/355eb853d30067bdaad6687d1d2080620e5169a1) health: Format notification's target time according to locale _(by наб)_  
+[7810bd5](https://github.com/PixelOS-AOSP/build/commit/7810bd5595b7a1c51e823669a0bcb25f3dd66b49) Export TARGET_BOARD_PLATFORM to soong _(by Bill Yang)_  
 
 ## 2025-02-16
 [3dd689b](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/3dd689b7beecfb680240e203ec87a3d819ace993) ColumbusService: Add copyright notice _(by someone5678)_  
-[f870958](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/f8709582852f7207f8d1f0740f92b3549cccf2df) ThemeIcons: Add copyright notice _(by someone5678)_  
 [82dadeb](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/82dadeb8bd0c9fb65d768a439a62f3a2fab92d44) ColumbusService: Add PowerState gate _(by someone5678)_  
 [96eef11](https://github.com/PixelOS-AOSP/packages_apps_ColumbusService/commit/96eef116bfe152feb8ca660949b95b6e0db28d14) ColumbusService: Always block on action ACTION_DOWN _(by someone5678)_  
 
@@ -127,9 +141,6 @@ pageClass: changelogSection
 [4d638b5](https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/4d638b5d59dd83984817123589f4811bf5e7d61d) Merge tag 'android-15.0.0_r17' into fifteen-qpr1 _(by Karan Parashar)_  
 [be2ea35](https://github.com/PixelOS-AOSP/system_core/commit/be2ea35cb1cb3098f20a788b76ce6fb1a82579cd) Merge tag 'android-15.0.0_r17' into fifteen-qpr1 _(by Karan Parashar)_  
 
-## 2025-02-02
-[81f63d7](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/81f63d7e20d8a573091116664102fd5bda65ccce) ThemeIcons: Update _(by someone5678)_  
-
 ## 2025-02-01
 [a61c3e7](https://github.com/PixelOS-AOSP/frameworks_base/commit/a61c3e78d545b73ca6dddd71d1cbdd2b7b20c931) fixup! SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
 [7c34370](https://github.com/PixelOS-AOSP/frameworks_base/commit/7c343702a5558fe4571203b2235db01590c8ee2b) SystemUI: Don't remove keyguard slice view _(by LuK1337)_  
@@ -214,7 +225,6 @@ pageClass: changelogSection
 [ac91306](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ac91306b7fdf9438a7be640488eec950e3e45c7f) custom-component-overrides: Disable SystemUpdateV2Activity _(by someone5678)_  
 
 ## 2025-01-19
-[eaff4a1](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/eaff4a11f26f706a7c9f53a5433ce4b5a191bee7) ThemeIcons: Update _(by someone5678)_  
 [3d6ac35](https://github.com/PixelOS-AOSP/vendor_aosp/commit/3d6ac35d775d0a8281341746d792d57419424bbb) soong: Make mkdir install dir optional _(by LuK1337)_  
 
 ## 2025-01-18
@@ -233,14 +243,10 @@ pageClass: changelogSection
 [6f210ac](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/6f210ac58efde990a55e768a57de67a24df5452c) common: Unlabel aw2013 lights HAL _(by LuK1337)_  
 [69dde9f](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/69dde9f38ece403206044f7e78e58c3422fbb99c) common: Label lineage light-service _(by LuK1337)_  
 
-## 2025-01-16
-[175a27f](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/175a27f05ab24e3c56338235e98ca1ab2bae564c) ThemeIcons: Update _(by someone5678)_  
-
 ## 2025-01-15
 [7b0c849](https://github.com/PixelOS-AOSP/vendor_aosp/commit/7b0c849bf11e09dd6d93e2e69bfc776a720443ca) soong: Unset custom charging path var if it is not defined _(by Luofan Chen)_  
 
 ## 2025-01-12
-[e630bff](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/e630bff411cc7e37c8ca45850c184b5af8e6baeb) ThemeIcons: Update _(by someone5678)_  
 [eeac3ae](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/eeac3ae32de6ed4090358976e96fdc4facc66960) UpdatesActivity: Fix disabled CHECK_FOR_UPDATES when check fails _(by Hridaya Prajapati)_  
 [ace9af8](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/ace9af8112ef3e127afccf287d4a85c2629e6c0c) Updater: Fix some warnings _(by Michael W)_  
 [c16d429](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/c16d4294d7f325e365bd24b215e18c2cf7b029fb) Updater: Use Java 17 _(by Hridaya Prajapati)_  
@@ -267,7 +273,6 @@ pageClass: changelogSection
 [828112f](https://github.com/PixelOS-AOSP/build/commit/828112f55748be82a26cba70361b23bd3bdf8ae0) Merge tag 'android-15.0.0_r10' into fifteen-qpr1 _(by Hridaya Prajapati)_  
 
 ## 2025-01-07
-[e1cd5c3](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/e1cd5c31b438dfe7c697d847f04555951bb37a73) ThemeIcons: Update _(by someone5678)_  
 [f01fbcc](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/f01fbcc3ced761bcaf603769b2c781565b344da4) UpdatesActivity: Don't set changelogs twice _(by Hridaya Prajapati)_  
 
 ## 2025-01-06
@@ -349,14 +354,6 @@ pageClass: changelogSection
 
 ## 2024-12-28
 [3cb1e80](https://github.com/PixelOS-AOSP/packages_modules_Connectivity/commit/3cb1e80e84dac989b9a0543cf21d23c45f3f53fa) Revert "Connectivity: Add capability to allow tethering to use VPN up… _(by basamaryan)_  
-
-## 2024-12-26
-[38cd195](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/38cd1958f8344d9050fe0af4ad236eea4044bcd5) fixup! ThemeIcons: Sync to AP4A _(by someone5678)_  
-
-## 2024-12-22
-[0905045](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/0905045ff5da4bef19312f6992ebf09ade861a72) lawnicons: Update _(by someone5678)_  
-[d4222ea](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/d4222ea4583efb371da1a7bf8474d87b7d9c2e0c) ThemeIcons: Sync to AP4A _(by someone5678)_  
-[54945af](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/54945af8f37dc64e6d3867b85cbb5a50b2cab2f3) workshop: Allow to delete themed icon for target _(by someone5678)_  
 
 ## 2024-12-21
 [d266abd](https://github.com/PixelOS-AOSP/frameworks_base/commit/d266abd9e6c0ac01cafab8881e8039add93deedd) SystemUI: Update advanced reboot icons _(by Gustavo Mendes)_  
@@ -882,9 +879,6 @@ pageClass: changelogSection
 [a2c0169](https://github.com/PixelOS-AOSP/build/commit/a2c016915b68ec11d54d286a3bcad76b02e9c0e6) [coastguard skipped] Merge sparse cherrypicks from sparse-12701944-L5… _(by Android Build Coastguard Worker)_  
 [429d414](https://github.com/PixelOS-AOSP/build/commit/429d414e31014e4f0e5e810cf396d06662d05bf7) Version bump to AP4A.250105.002.C1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
 
-## 2024-12-16
-[48dec2a](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/48dec2aeebb69832d6362f3241f7c961790c14cb) lawnicons: Update _(by someone5678)_  
-
 ## 2024-12-11
 [8298b49](https://github.com/PixelOS-AOSP/vendor_aosp/commit/8298b491cb747b52739f915ebe4348b8b14d5502) Zap aapt_version_code_defaults _(by Luca Stefani)_  
 
@@ -899,6 +893,3 @@ pageClass: changelogSection
 ## 2024-12-09
 [50909e5](https://github.com/PixelOS-AOSP/build/commit/50909e54ce704ba1c8afa507cd464f90e3dc9861) [coastguard skipped] Merge sparse cherrypicks from sparse-12545800-L1… _(by Android Build Coastguard Worker)_  
 [2d5812a](https://github.com/PixelOS-AOSP/build/commit/2d5812a3d7d1c4033a7b1b621cf799d9efd7991f) Version bump to AP4A.241205.004.R1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
-
-## 2024-12-07
-[1ba1e92](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/1ba1e9283941a7d9b85545c005ba7371fc54695a) lawnicons: Update _(by someone5678)_  
