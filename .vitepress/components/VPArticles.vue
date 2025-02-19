@@ -1,5 +1,5 @@
 <script setup>
-import {data as data} from "../blog.data.ts";
+import { data as data } from "../blog.data.ts";
 </script>
 
 <template>

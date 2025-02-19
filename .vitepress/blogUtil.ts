@@ -37,19 +37,18 @@ interface BlogSideBarProps {
   items: { text: string; link: string }[];
 }
 
-export const groupedSidebarBlog = sidebarBlog.reduce<Record<string, BlogSideBarProps>>(
-  (acc, item) => {
-    if (!acc[item.year]) {
-      acc[item.year] = {
-        text: item.year,
-        items: [],
-      };
-    }
-    acc[item.year].items.push({
-      text: item.title,
-      link: `/blog/${item.name}`,
-    });
-    return acc;
-  },
-  {}
-);
+export const groupedSidebarBlog = sidebarBlog.reduce<
+  Record<string, BlogSideBarProps>
+>((acc, item) => {
+  if (!acc[item.year]) {
+    acc[item.year] = {
+      text: item.year,
+      items: [],
+    };
+  }
+  acc[item.year].items.push({
+    text: item.title,
+    link: `/blog/${item.name}`,
+  });
+  return acc;
+}, {});
