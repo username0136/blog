@@ -4,6 +4,10 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-02-22
+[a629a72](https://github.com/PixelOS-AOSP/build/commit/a629a72686d2bb4ad0170ef7d65ffbb0f991c7ab) Revert "releasetools: remove scratch partition in ota" _(by Hridaya Prajapati)_  
+[b8ee6f3](https://github.com/PixelOS-AOSP/vendor_aosp/commit/b8ee6f3df4f6a1aefe6bd8c1b19b61a56f192fe5) build: fix eat-ing the OTA zip _(by Bharat Dev Burman)_  
+
 ## 2025-02-18
 [b1e3bb0](https://github.com/PixelOS-AOSP/vendor_aosp/commit/b1e3bb0164e349585b59af14f4bd0978cf9ae4da) apns: Update for ChinaTelecom Macau (CTMO) _(by Flicker372)_  
 [e72adaf](https://github.com/PixelOS-AOSP/vendor_aosp/commit/e72adaf99678d1c387993a476deac8fbf00531eb) apns: Update Lebara UK _(by razorloves)_  
