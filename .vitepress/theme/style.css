@@ -44,10 +44,6 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-pre {
-  overflow-x: auto;
-}
-
 @import "tailwindcss";
 
 .changelogSection {
