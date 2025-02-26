@@ -4,6 +4,10 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-02-25
+[9b5db9a](https://github.com/PixelOS-AOSP/frameworks_base/commit/9b5db9ac19a0268b09091849d848b3c0a68474d0) health: Rename msToUTCString to msToHMSString _(by Luofan Chen)_  
+[ee3e2d2](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ee3e2d2110385f6f6da418bccd3cd14b85b94c9c) config: Install FRP wipe script into recovery /system/bin _(by LuK1337)_  
+
 ## 2025-02-22
 [a629a72](https://github.com/PixelOS-AOSP/build/commit/a629a72686d2bb4ad0170ef7d65ffbb0f991c7ab) Revert "releasetools: remove scratch partition in ota" _(by Hridaya Prajapati)_  
 [b8ee6f3](https://github.com/PixelOS-AOSP/vendor_aosp/commit/b8ee6f3df4f6a1aefe6bd8c1b19b61a56f192fe5) build: fix eat-ing the OTA zip _(by Bharat Dev Burman)_  
