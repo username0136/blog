@@ -1,5 +1,9 @@
 # Guide to Building PixelOS
 
+::: danger WARNING
+The content on this page is outdated and will be updated in near future.
+:::
+
 This guide provides a step-by-step tutorial on setting up a build environment for building PixelOS on Ubuntu and syncing the ROM from the manifest.
 
 ## Step 1: Install Necessary Tools and Dependencies
