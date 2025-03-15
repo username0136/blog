@@ -4,25 +4,25 @@ In this guide, we will see how to bypass the Factory Reset Protection (FRP) lock
 
 ## Important Notes
 
-- This method **only works on userdebug builds**.
-- For builds after [this commit](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ee3e2d2110385f6f6da418bccd3cd14b85b94c9c) (February 22, 2025), the `wipe-frp.sh` script is included in the ROM itself. You do **not** need to download or push the script.
-- For older builds, you will need to manually download and push the script.
+- This method **ONLY** works on userdebug builds
 
-## Prerequisites
+::: info
 
-Before starting, ensure you have:
+For builds after [this commit](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ee3e2d2110385f6f6da418bccd3cd14b85b94c9c) (February 22, 2025), the `wipe-frp.sh` script is included in the ROM itself. You do **not** need to download or push the script.
 
-- `platform-tools` (ADB & Fastboot tools) installed.
-- Your device in **recovery mode**.
+:::
 
-## Steps to Bypass FRP
+Before starting, ensure you have your device in **recovery mode**, and platform-tools installed.
 
-### 1. Connect your device and verify ADB connection
+## Steps
+
+### 1. Verify ADB connection and gain root access
 
 First, check if your device is detected:
 
 ```sh
 adb devices
+adb root
 ```
 
 Expected output:
@@ -30,93 +30,51 @@ Expected output:
 ```sh
 List of devices attached
 XYZ123456789    recovery
-```
 
-If your device does not appear, ensure you have installed the correct drivers.
-
-### 2. Gain root access via ADB
-
-```sh
-adb root
-```
-
-Expected output:
-
-```sh
 restarting adbd as root
 ```
 
-Now, start an ADB shell session:
-
-```sh
-adb shell
-```
-
-You should now see a root shell prompt:
-
-```sh
-munch:/#
-```
-
-The `#` symbol confirms that you have root access.
-
 ### 3. Run the Script
 
-::: details For Builds after February 22, 2025
+::: details For newer builds
 If you’re using a build that includes the script, simply run the script directly:
 
 ```sh
-wipe-frp
+adb shell wipe-frp
 ```
 
 :::
 
-::: details For Older Builds
+::: details For older builds
 If your build does not include the script, you will need to:
 
-1. [Download the `wipe-frp.sh` script](https://raw.githubusercontent.com/PixelOS-AOSP/vendor_aosp/refs/heads/fifteen/prebuilt/common/bin/wipe-frp.sh) and place it in the `platform-tools` folder.
-2. Make sure to exit the adb shell first
+1. [Download the `wipe-frp.sh` script](https://raw.githubusercontent.com/PixelOS-AOSP/vendor_aosp/refs/heads/fifteen/prebuilt/common/bin/wipe-frp.sh).
 
-    ```sh
-    exit
-    ```
+2. Push the script to your device:
 
-3. Push the script to your device:
+   ```sh
+   adb push wipe-frp.sh /sdcard/
+   ```
 
-    ```sh
-    adb push wipe-frp.sh /sdcard/
-    ```
+   Expected output:
 
-    Expected output:
+   ```sh
+   wipe-frp.sh: 1 file pushed, 0 skipped. 0.1 MB/s (1686 bytes in 0.015s)
+   ```
 
-    ```sh
-    wipe-frp.sh: 1 file pushed, 0 skipped. 0.1 MB/s (1686 bytes in 0.015s)
-    ```
+3. Make the script executable:
 
-4. Re-open the adb shell
-
-    ```sh
-    adb shell
-    ```
-
-5. Make the script executable:
-
-    ```sh
-    chmod +x /sdcard/wipe-frp.sh
-    ```
-
-6. Run the script:
-
-    ```sh
-    ./sdcard/wipe-frp.sh
-    ```
+   ```sh
+   adb shell chmod +x /sdcard/wipe-frp.sh
+   adb shell /sdcard/wipe-frp.sh
+   ```
 
 :::
 
 It should display similar output:
 
 ```log
-zeus:/ # ./sdcard/wipe-frp.sh
+device:/ # ./sdcard/wipe-frp.sh
 32+0 records in
 32+0 records out
 32 bytes (32 B) copied, 0.004 s, 7.8 K/s
@@ -132,13 +90,13 @@ zeus:/ # ./sdcard/wipe-frp.sh
 32+0 records in
 32+0 records out
 32 bytes (32 B) copied, 0.004 s, 7.8 K/s
-zeus:/ #
+device:/ #
 ```
 
-### 4. Reboot the Device
+### 4. Finally reboot your device
 
 ```sh
-reboot
+adb shell reboot
 ```
 
 Your device should now be free from the FRP lock.
